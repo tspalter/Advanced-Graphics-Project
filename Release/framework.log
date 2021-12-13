@@ -1,0 +1,139 @@
+﻿  fbo.cpp
+  framework.cpp
+  scene.cpp
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(50,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(51,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(91,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(92,43): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(98,99): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(98,88): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(98,77): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(111,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(119,43): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(120,44): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(121,33): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(121,62): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(122,34): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(122,63): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(165,13): warning C4305: '=': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(170,17): warning C4305: '=': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(204,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(216,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(217,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(218,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(221,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(222,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(223,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(225,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(393,46): warning C4305: 'argument': truncation from 'double' to 'const float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(476,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(493,44): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(520,34): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  shader.cpp
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shader.cpp(25,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  texture.cpp
+  interact.cpp
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\interact.cpp(134,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\interact.cpp(135,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\interact.cpp(139,34): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\interact.cpp(140,34): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  object.cpp
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\object.cpp(124,24): warning C4018: '<': signed/unsigned mismatch
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\object.cpp(189,27): warning C4018: '<': signed/unsigned mismatch
+  shapes.cpp
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(132,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(325,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(326,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(327,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(331,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(332,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(336,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(337,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(338,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(342,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(343,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(522,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(588,24): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(601,24): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(612,24): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(704,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(709,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\shapes.cpp(710,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  simplexnoise.cpp
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(179,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(185,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(205,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(206,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(216,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(223,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(230,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(239,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(248,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(254,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(286,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(287,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(288,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(289,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(290,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(291,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(303,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(310,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(317,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(324,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(333,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(340,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(341,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(406,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(407,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(408,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(409,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(410,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(411,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(412,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(413,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(414,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(415,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(416,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(417,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(431,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(438,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(445,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(452,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(459,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\simplexnoise.cpp(467,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  transform.cpp
+  emulator.cpp
+  rply.c
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(374,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(462,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(492,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(510,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(534,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(559,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(573,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(1228,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(1243,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(1246,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\FA_20\CSE 541\CS541-framework-glfw\rply.c(1268,5): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 1299 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  framework.vcxproj -> D:\Documents\FA_20\CSE 541\CS541-framework-glfw\Release\framework.exe
+  0 File(s) copied

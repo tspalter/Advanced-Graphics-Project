@@ -1,0 +1,34 @@
+#version 430 // version with OpenGL with compute shader support
+layout(local_size_x = 1, local_size_y = 128, local_size_z = 1) in;
+
+uniform blurKernel{ float weights[101]; };
+
+layout(rgba32f) uniform readonly image2D src;
+layout(rgba32f) uniform writeonly image2D dst;
+
+uniform int w;
+
+shared vec4 v[128 + 101];
+
+void main() {
+	ivec2 gpos = ivec2(gl_GlobalInvocationID.xy);
+	if (w == 0) {
+		imageStore(dst, gpos, imageLoad(src, gpos));
+		return;
+	}
+	uint i = gl_LocalInvocationID.y;
+	v[i] = imageLoad(src, gpos + ivec2(0, -w));
+
+	if (i < 2 * w) {
+		v[i + 128] = imageLoad(src, gpos + ivec2(0, 128 - w));
+	}
+
+	barrier();
+
+	vec4 sum = vec4(0, 0, 0, 0);
+	for (int j = 0; j < 2 * w + 1; j++) {
+		sum += weights[j] * v[i + j];
+	}
+
+	imageStore(dst, gpos, sum);
+}

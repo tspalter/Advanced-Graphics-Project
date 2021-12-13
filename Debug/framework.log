@@ -1,0 +1,35 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  scene.cpp
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(50,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(51,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(91,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(91,62): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(92,42): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(98,85): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(98,77): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(98,69): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(109,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(117,43): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(118,44): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(119,33): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(119,62): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(120,34): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(120,63): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(144,13): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(149,17): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(276,53): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(278,52): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(286,46): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(292,54): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(292,75): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(293,55): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(293,76): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(343,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(358,48): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\scene.cpp(374,34): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  framework.vcxproj -> C:\Users\tcs11\Documents\FA_20\CSE 541\CS541-framework-glfw\Debug\framework.exe
+  0 File(s) copied

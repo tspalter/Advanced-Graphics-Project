@@ -1,0 +1,116 @@
+#version 430
+layout(local_size_x = 128, local_size_y = 1, local_size_z = 1) in;
+
+#define PI 3.1415926535897932384626433832795
+
+uniform blurKernel{ float weights[101]; };
+
+uniform sampler2D G0;
+uniform sampler2D G1;
+
+uniform int screenWidth;
+uniform int screenHeight;
+uniform vec3 eyePos;
+
+layout(rgba32f) uniform readonly image2D src;
+layout(rgba32f) uniform writeonly image2D dst;
+
+uniform int w;
+
+shared vec4 v[128 + 101];
+
+// Ambient Occlusion
+float AO(ivec2 gpos) {
+	vec2 uv = gpos / vec2(screenWidth, screenHeight);
+
+	vec3 N = texture(G1, uv).xyz;
+	vec3 P = texture(G0, uv).xyz;
+	float D = length(eyePos - P);
+
+	float sR = 2.0f;
+	int sN = 20;
+	float sC = 0.1f * sR;
+	float sDelt = 0.001f;
+
+	int xP = int(gpos.x); // x prime
+	float x = uv.x;
+	int yP = int(gpos.y); // y prime
+	float y = uv.y;
+
+	float sPsi = (30 * xP ^ yP) + 10 * xP * yP;
+	float sA, sH, sTheta, Di;
+	float sum = 0;
+
+	for (int i = 0; i < sN; i++) {
+		sA = (i * 0.5) / sN;
+		sH = (sA * sR) / D;
+		sTheta = (2 * PI * sA * ((7 * sN) / 9)) + sPsi;
+		vec2 newUV = uv + sH * vec2(cos(sTheta), sin(sTheta));
+		vec3 Pi = texture(G0, newUV).xyz;
+		vec3 sWi = Pi - P;
+		Di = length(eyePos - Pi);
+
+		if (sR - length(sWi) > 0) {
+			float topMax = max(0, dot(N, sWi) - sDelt * Di);
+			float botMax = max(sC * sC, dot(sWi, sWi));
+			sum += topMax / botMax;
+		}
+	}
+
+	float S = ((2 * PI * sC) / sN) * sum;
+	float s = 1.0f;
+	float k = 1.0f;
+	float ambientScalar = pow(1 - (s * S), k);
+	if (ambientScalar < 0) {
+		ambientScalar = 0;
+	}
+
+	return ambientScalar;
+}
+
+void main() {
+	ivec2 gpos = ivec2(gl_GlobalInvocationID.xy);
+
+	if (w == 0) {
+		imageStore(dst, gpos, imageLoad(src, gpos));
+		return;
+	}
+
+	uint i = gl_LocalInvocationID.x;
+
+	v[i] = imageLoad(src, gpos + ivec2(-w, 0));
+
+	if (i < 2 * w) {
+		v[i + 128] = imageLoad(src, gpos + ivec2(128 - w, 0));
+	}
+
+	barrier(); // wait for threads to catch up
+
+	vec3 N = texture(G1, gpos).xyz;
+	vec3 P = texture(G0, gpos).xyz;
+	float D = length(eyePos - P);
+
+	float Di;
+	vec3 Pi, Ni;
+	float s = 0.01f;
+
+	vec4 sumTop = vec4(0, 0, 0, 0);
+	vec4 sumBot = vec4(0, 0, 0, 0);
+
+	for (int j = 0; j < 2 * w + 1; j++) {
+		Ni = texture(G1, gpos + vec2(j, 0)).xyz;
+		Pi = texture(G0, gpos + vec2(j, 0)).xyz;
+		Di = length(eyePos - Pi);
+
+		float R = max(0, dot(Ni, N));
+		R *= (1 / (pow(2 * PI * s, 0.5))) * exp(-pow(Di - D, 2) / (2 * s));
+		if (R <= 0) {
+			R = 0;
+		}
+
+		sumTop += weights[j] * R * v[i + j];
+		sumBot += weights[j] * R;
+	}
+
+	imageStore(dst, gpos, sumTop / sumBot);
+}
